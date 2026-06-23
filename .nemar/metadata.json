@@ -1,0 +1,40 @@
+{
+  "version": "2.0",
+  "dataset_id": "on004075",
+  "source": "openneuro",
+  "source_id": "ds004075",
+  "title": "what_are_we_talking_about",
+  "authors": {
+    "Adam Boncz": {},
+    "Brigitta Toth": {},
+    "István Winkler": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds004075.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "v1.7.0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Hungarian Academy of Sciences, grant LP2012-36/2012 (IW)"
+    },
+    {
+      "funder_name": "National Research, Development and Innovation Office, Hungary, grant K132642 (IW)"
+    },
+    {
+      "funder_name": "National Research, Development and Innovation Office, Hungary, grant PD123790 (BT)"
+    }
+  ]
+}
