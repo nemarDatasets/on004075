@@ -1,40 +1,89 @@
 {
   "version": "2.0",
-  "dataset_id": "on004075",
-  "source": "openneuro",
-  "source_id": "ds004075",
+  "pipeline_stage": "enriched",
   "title": "what_are_we_talking_about",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Adam Boncz": {},
     "Brigitta Toth": {},
     "István Winkler": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004075.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004075",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004075",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v1.7.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "Hungarian Academy of Sciences, grant LP2012-36/2012 (IW)"
+      "funder_name": "Hungarian Academy of Sciences",
+      "award_number": "LP2012-36/2012"
     },
     {
-      "funder_name": "National Research, Development and Innovation Office, Hungary, grant K132642 (IW)"
+      "funder_name": "National Research, Development and Innovation Office, Hungary",
+      "award_number": "K132642"
     },
     {
-      "funder_name": "National Research, Development and Innovation Office, Hungary, grant PD123790 (BT)"
+      "funder_name": "National Research, Development and Innovation Office, Hungary",
+      "award_number": "PD123790"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "EEG dataset containing recordings from participants engaged in natural conversation. The dataset includes raw EEG data collected during spontaneous speech interactions, designed to investigate neural correlates of communication and language processing. Data were acquired using standard EEG recording protocols and include multiple channels of continuous EEG activity synchronized with behavioral and linguistic annotations.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "conversation"
+    },
+    {
+      "term": "natural language"
+    },
+    {
+      "term": "speech processing"
+    },
+    {
+      "term": "brain activity"
+    },
+    {
+      "term": "neurolinguistics"
+    },
+    {
+      "term": "dialogue"
+    },
+    {
+      "term": "dyadic interaction"
+    },
+    {
+      "term": "spontaneous speech"
+    }
+  ],
+  "source_hash": "23f5bc56fe2e4fd8235c6f9e864aebf6855ef89a6aa48254ea868999bb49fa87"
 }
