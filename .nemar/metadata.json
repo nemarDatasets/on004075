@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "what_are_we_talking_about",
-  "description": "EEG dataset containing recordings from participants engaged in natural conversation. The dataset includes raw EEG data collected during spontaneous speech interactions, designed to investigate neural correlates of communication and language processing. Data were acquired using standard EEG recording protocols and include multiple channels of continuous EEG activity synchronized with behavioral and linguistic annotations.",
+  "description": "EEG dataset titled 'what_are_we_talking_about', authored by Boncz, Toth, and Winkler. It is a BIDS-formatted raw EEG dataset mirrored on NEMAR from OpenNeuro (ds004075). The README provides little detail on the experimental paradigm.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,28 +15,7 @@
       "term": "EEG"
     },
     {
-      "term": "conversation"
-    },
-    {
-      "term": "natural language"
-    },
-    {
-      "term": "speech processing"
-    },
-    {
-      "term": "brain activity"
-    },
-    {
-      "term": "neurolinguistics"
-    },
-    {
-      "term": "dialogue"
-    },
-    {
-      "term": "dyadic interaction"
-    },
-    {
-      "term": "spontaneous speech"
+      "term": "electroencephalography"
     }
   ],
   "related_identifiers": [
@@ -46,14 +25,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004075",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004075.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004075",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -76,12 +55,13 @@
     "eeg"
   ],
   "sizes": [
-    "7.9 GB (349 files)"
+    "7.39 GB (349 files)"
   ],
   "formats": [
     ".eeg",
     ".json",
     ".md",
+    ".tsv",
     ".vhdr",
     ".vmrk",
     ".yml"
